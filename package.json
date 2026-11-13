@@ -1,0 +1,33 @@
+{
+  "name": "correctover-audit-mcp",
+  "version": "1.0.0",
+  "description": "MCP server: free self-service MCP session-security audit (unauthenticated tool surface, unbound session IDs). Verdicts you can re-verify.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "correctover-audit-mcp": "src/index.js"
+  },
+  "files": [
+    "src/",
+    "server.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "security",
+    "audit",
+    "session",
+    "model-context-protocol",
+    "correctover"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.0"
+  },
+  "mcpName": "io.github.DSHCorrectover/correctover-audit-mcp"
+}
