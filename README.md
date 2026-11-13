@@ -7,7 +7,7 @@ Part of the Session-as-Identity research line: [DSHCorrectover/mcp-session-audit
 ## Install (one line)
 
 ```bash
-claude mcp add correctover-audit -- npx -y correctover-audit-mcp
+claude mcp add correctover-audit -- npx -y github:DSHCorrectover/correctover-audit-mcp
 ```
 
 Then ask your agent: *"audit https://your-server.example/mcp for session-security issues"*.
