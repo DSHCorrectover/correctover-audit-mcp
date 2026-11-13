@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.DSHCorrectover/correctover-audit-mcp",
+  "description": "Free self-service MCP session-security audit: detect unauthenticated tool surface and unbound session IDs. Read-only probes, re-verifiable verdicts.",
+  "version": "1.0.0",
+  "createdAt": "2026-11-13T09:00:00Z",
+  "websiteUrl": "https://correctover-api.pages.dev/",
+  "repository": { "source": "github", "url": "https://github.com/DSHCorrectover/correctover-audit-mcp" },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "correctover-audit-mcp",
+      "version": "1.0.0",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}
