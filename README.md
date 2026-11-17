@@ -1,5 +1,7 @@
 # correctover-audit-mcp
 
+[**Commercial verification engagements — USD 8,000–15,000, court-ready dossier**](https://dshcorrectover.github.io/correctover-recovery-admission/services.html) · [**Independent audit & conformance**](https://dshcorrectover.github.io/correctover-recovery-admission/services.html)
+
 Free self-service **MCP session-security audit** as an MCP server. Ask your agent to audit an MCP endpoint and get a **re-verifiable verdict** (e.g. `unauthenticated-surface`) from 3 read-only probes — no handshake forgery, no exploit payloads.
 
 Part of the Session-as-Identity research line: [DSHCorrectover/mcp-session-audit](https://github.com/DSHCorrectover/mcp-session-audit) (protocol + CI action + evidence).
