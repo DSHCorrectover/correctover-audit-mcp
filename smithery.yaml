@@ -1,0 +1,8 @@
+# Smithery auto-discovery for Correctover Audit MCP
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction: |-
+    (config) => ({ command: 'node', args: ['src/index.js'] })
